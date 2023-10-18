@@ -1,0 +1,38 @@
+.perfil-card {
+    display: flex; /* Agrega flexbox para centrar el contenido verticalmente */
+    flex-direction: column; /* Apila el contenido verticalmente */
+    align-items: center; /* Centra horizontalmente */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 20px auto; /* Auto para centrar horizontalmente */
+  }
+  
+  .perfil-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .perfil-titulo {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .perfil-detalle {
+    font-size: 1rem;
+    margin: 0;
+    color: #666;
+  }
+  
+  .perfil-etiqueta {
+    font-weight: bold;
+    color: #333;
+  }
+  

@@ -1,0 +1,55 @@
+/* Estilo para el Navbar */
+.navbar {
+    background-color: #3498db; /* Cambia el color de fondo según tus preferencias */
+    padding: 15px 0; /* Añade espaciado interior para mejorar la apariencia */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Agrega una suave sombra para destacar el Navbar */
+  }
+  
+  .navbar-brand {
+    color: #706f6f; /* Color del texto del enlace */
+    font-size: 24px; /* Tamaño de fuente del enlace */
+    font-weight: bold; /* Texto en negrita */
+  }
+  
+  /* Estilo para los elementos del menú */
+  .nav-link {
+    color: #7a7979; /* Color del texto de los elementos del menú */
+    font-size: 16px; /* Tamaño de fuente de los elementos del menú */
+    margin: 0 15px; /* Espaciado entre los elementos del menú */
+    text-transform: uppercase; /* Convierte el texto en mayúsculas */
+    transition: color 0.3s; /* Agrega una transición suave al color del texto al pasar el mouse */
+  }
+  
+  .nav-link:hover {
+    color: #eca217; /* Cambia el color del texto al pasar el mouse */
+  }
+  
+  /* Estilo para el CartWidget (ícono) */
+  .cart-icon {
+    font-size: 24px; /* Tamaño de fuente del icono */
+    color: #fff; /* Color del icono */
+    margin-left: 15px; /* Espaciado entre el texto y el icono */
+    
+  }
+  ul {
+    list-style-type: none; /* Quita los puntos de viñeta de las listas desordenadas */
+  }
+  
+  ol {
+    list-style-type: none; /* Quita los números de las listas ordenadas */
+  }
+  /* Estilo para el botón del carrito */
+  .cart-button {
+    background-color: #f1c40f; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    border: none; /* Quita el borde del botón */
+    padding: 5px 10px; /* Añade espaciado interior para mejorar el aspecto del botón */
+    border-radius: 5px; /* Agrega bordes redondeados al botón */
+    cursor: pointer; /* Cambia el cursor al pasar el mouse */
+    transition: background-color 0.3s; /* Agrega una transición suave al color de fondo al pasar el mouse */
+  }
+  
+  .cart-button:hover {
+    background-color: #e0a800; /* Cambia el color de fondo al pasar el mouse */
+  }
+  

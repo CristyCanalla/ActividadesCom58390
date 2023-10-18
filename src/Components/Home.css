@@ -1,0 +1,26 @@
+.parrafo {
+    font-size: 2rem;
+    text-align: center;
+    padding: 20px;
+    color: #333;
+    animation: fadeIn 2s ease-in-out; /* Agrega una animación de fadeIn */
+  }
+  
+  .parrafo b {
+    color: #ff5733; /* Cambia el color del número */
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Agrega un efecto de sombra */
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: scale(0.5);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
